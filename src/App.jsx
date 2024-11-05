@@ -1,13 +1,7 @@
+import React from "react";
 
-import navbar from './pages/navbar';
 const App = () => {
-
-  return (
-    <>
-     <h1>Hello</h1>
-  <navbar/>
-    </>
-  );
+  return <div className="text-blue-900 text-2xl font-bold">Hi</div>;
 };
 
 export default App;
